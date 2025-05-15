@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&display=swap');
+
 * {
   scroll-behavior: smooth;
+  font-family: "Playpen Sans Thai", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 /* Reset styles */
 body, h1, h2, h3, p, ul, li, a {
@@ -98,11 +104,11 @@ footer {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
+  transition: 0.3s;
 }
 
-
-img {
-  border-radius: 50%;
+.profile-img:hover {
+  transform: scale(1.2);
 }
 
 .fa-brands {
